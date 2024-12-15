@@ -1,0 +1,342 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.cleaning-page {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-section {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  background-image: url('../../Assests/scrap-back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.call-button {
+  background-color: #00a9e0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sponges-bg {
+  height: 200px;
+  margin-top: 20px;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px 0;
+  margin-top: 190px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.2);
+}
+
+.stat {
+  display: flex;
+}
+
+.stat-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 3px;
+  margin-top: 27px;
+  margin-right: 20px;
+}
+
+.stat h2 {
+  color: #00a9e0;
+  font-size: 24px;
+  padding-right: 40px;
+  margin-bottom: 0;
+}
+
+.stat p {
+  font-size: 15px;
+  color: #777;
+}
+
+.news-section {
+  padding: 200px 20px;
+  background-color: #f9f9f9;
+}
+
+.news-title {
+  font-size: 2rem;
+  padding-bottom: 0;
+}
+
+.news-description {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.news-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card, .card1, .card2 {
+  width: 300px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.card {
+  background-image: url('../../Assests/martha-clean.jpg');
+}
+
+.card1 {
+  background-image: url('../../Assests/clean2.jpg');
+}
+
+.card2 {
+  background-image: url('../../Assests/clean3.png');
+}
+
+.card-date {
+  background-color: #00a9e0;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 240px;
+  height: 40px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 160px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #01B3E4;
+}
+
+.card-des {
+  font-size: 14px;
+  color: #777;
+}
+
+.card-tag {
+  color: #777;
+  font-weight: bold;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.card1 h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.card2 h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.card-author {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.play-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #00a9e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 0 0 5px rgba(0, 169, 224, 0.2);
+  animation: pulse 1.5s infinite;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.play-icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.icons-cart-section {
+  height: 80px;
+  margin-top: 30px;
+}
+
+.news-title-sec {
+  color: #777;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.news-section-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-cart {
+  display: flex;
+}
+
+.profile-cart-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+/* Responsive Styles for Devices with Max Width 768px */
+@media only screen and (max-width: 768px) {
+  .header-section {
+    padding: 40px 10px;
+    padding-top: 50px;
+  }
+
+  .news-title{
+    font-size: 14px;
+  }
+
+  .news-description{
+    font-size: 12px;
+  }
+
+  .header-content h1 {
+    font-size: 2rem;
+    margin: 5px 0;
+  }
+
+  .call-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .sponges-bg {
+    height: 150px;
+  }
+
+  .stats-section {
+    flex-direction:row;
+    margin-top: 160px;
+    padding: 10px;
+  }
+
+  .stat h2 {
+    font-size: 12px;
+    padding-right: 0;
+  }
+
+  .stat p {
+    font-size: 10px;
+  }
+
+  .icons-cart-section{
+    height: 40px;
+  }
+
+  .news-section {
+    padding: 100px 10px;
+  }
+
+  .news-cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card, .card1, .card2 {
+    width: 260px;
+    /* margin-top:10px; */
+  }
+
+  .card-content {
+    margin-top: 120px;
+    padding: 10px;
+   
+  }
+
+  .play-circle {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 0 3px rgba(0, 169, 224, 0.2);
+  }
+
+  .play-icon {
+    font-size: 1.5rem;
+  }
+
+  .card-date{
+    margin-left: 200px;
+  }
+
+  .card-tag{
+    font-size: 14px;
+  }
+  .card-content h3{
+    font-size: 12px;
+  }
+  .card-des{
+    font-size: 10px;
+  }
+
+  .card-author,.card-position{
+    font-size: 12px;
+  }
+
+  .profile{
+    height: 50px;
+  }
+
+  .profile-cart-section{
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
